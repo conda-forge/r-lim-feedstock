@@ -16,7 +16,6 @@ build:
   noarch: generic
   merge_build_host: True  # [win]
   number: 1002
-  noarch: generic
   rpaths:
     - lib/R/lib/
     - lib/
@@ -40,7 +39,7 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=LIM
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: 'Functions that read and solve linear inverse problems (food web problems, linear
     programming problems). These problems find solutions to linear or quadratic functions:
     min or max (f(x)), where f(x) = ||Ax-b||^2 or f(x) = sum(ai*xi) subject to equality
