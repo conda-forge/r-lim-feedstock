@@ -1,11 +1,11 @@
-About r-lim
-===========
+About r-lim-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lim-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=LIM
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-lim-feedstock/blob/main/LICENSE.txt)
 
 Summary: Functions that read and solve linear inverse problems (food web problems, linear programming problems). These problems find solutions to linear or quadratic functions: min or max (f(x)), where f(x) = ||Ax-b||^2 or f(x) = sum(ai*xi) subject to equality constraints Ex=f and inequality constraints Gx>=h. Uses package limSolve.
 
